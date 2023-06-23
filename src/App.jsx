@@ -26,7 +26,7 @@ function App() {
           uma conexão correta e segura, evitando vazamentos e problemas futuros. É recomendável contar com um profissional 
           para realizar esse tipo de serviço, garantindo um trabalho de qualidade e duradouro."
       />
-      <Footer contato="Contato" telefone="+55 48 9999-2093" email="bestandigsc@gmail.com" endereco="Rua Nova Veneza 326" cidade="Palhoça SC"/>
+      <Footer contato="Contato" telefone="+55 48 9999-2093" email="bestandigsc@gmail.com" endereco="Rua Nova Veneza 326" cidade="Palhoça SC" tituloinformacao="Informações" infcontent="CNPJ 0000000-000000"/>
     </>
   );
 }
