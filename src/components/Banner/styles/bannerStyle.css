@@ -1,0 +1,37 @@
+#container-banner{
+position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding: 50px 60px;
+
+}
+.titulo {
+  width: 450px;
+  height: 23px;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+  font-variant: small-caps;
+  color: #efefef;
+ 
+}
+.subtitulo{
+width: 500px;
+height: 60px;
+font-family: 'Poppins' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 51px;
+line-height: 60px;
+color: #efefef; 
+}
+.point{
+    color:rgb(218, 131, 32);
+    text-decoration-line: none;
+    font-size: 90px;
+}

@@ -1,0 +1,67 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1580px;
+  height: 348px;
+}
+.contain-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 526px;
+  height: 240px;
+}
+#logo {
+  width: 200px;
+  height: 200px;
+}
+.co{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+  gap: 10px;
+  width: 496px;
+  height: 126px;
+  border-bottom: 0.5px solid #787878;
+  box-sizing: border-box;
+}
+.co-2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+  gap: 10px;
+  width: 496px;
+  height: 126px;
+  border-bottom: 0.5px solid #787878;
+  box-sizing: border-box;
+}
+.contato{
+width: 107px;
+height: 28px;
+font-family: 'Roboto' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 15px;
+}
+
+.telefone{
+    margin-bottom: -25px;
+}
+.email{
+margin-top: 20px;
+}
+
+.cidade{
+  margin-top: -17px;
+}
