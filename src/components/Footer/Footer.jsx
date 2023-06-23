@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import logo from "./img/logo.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { faInstagram, faEnvelope} from '@fortawesome/free-brands-svg-icons';
 import "./styles/footerStyles.css";
 
 function Footer ({contato, telefone, email, endereco, cidade}){
@@ -21,9 +21,11 @@ return(
         <p className="endereco">{endereco}</p>
         <p className="cidade">{cidade}</p>
       </div>
-      <div>
-      <FontAwesomeIcon icon="fa-brands fa-instagram"/>
+      <div className="icons">
+      <FontAwesomeIcon icon={faInstagram}/>
+     <FontAwesomeIcon icon={faEnvelope}/>
       </div>
+     
     </div>
     <div className="col">
       One of three columns
