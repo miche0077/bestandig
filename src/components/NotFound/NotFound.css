@@ -1,0 +1,14 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Puedes cambiar el color de fondo según tus preferencias */
+  }
+  
+  .not-found-title {
+    font-size: 48px;
+    color: #333; /* Puedes cambiar el color del título */
+    text-align: center;
+  }
+  
