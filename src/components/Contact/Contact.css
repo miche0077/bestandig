@@ -1,9 +1,9 @@
 
 
 .contact-body{
-    height: 1000px;
-        display: flex;
-        flex-direction: row;
+        height:max-content;
+        display:flexbox;
+        flex-direction:column;
         justify-content: space-between;
         align-items: center;
       
