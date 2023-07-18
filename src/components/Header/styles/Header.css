@@ -3,9 +3,13 @@
     flex-direction: row;
     justify-content: flex-end;
     border: none;
+   
     
 }
 #img-logo{
     width: 200px;
     height: 180px;
+}
+.header-container{
+     width: 1598px;
 }

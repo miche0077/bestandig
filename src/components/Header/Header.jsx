@@ -1,9 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/Header.css';
 import logo from '../Header/img/logo.png';
+import { Link, Outlet } from 'react-router-dom';
 
 function Header() {
     return (
+      <>
       <div className="header-container">
         <header className="navbar navbar-expand-lg navbar bg-dark" data-bs-theme="dark">
           <div className="container">
@@ -19,16 +21,18 @@ function Header() {
                   <a className="nav-link" href="#">Sobre</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Serviços</a>
+                  <Link to="/products" className="nav-link" >Serviços</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Contato</a>
+                <Link to="/contact"  className='nav-link'>Contato</Link>
                 </li>
               </ul>
             </div>
           </div>
         </header>
+        <Outlet />
         </div>
+        </>
   );
 }
 
