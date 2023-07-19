@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import chuveiro from "./img/Inst-chuv.png";
-import bacia from "./img/inst-bacia.png";
-import torneira from "./img/inst-b.png"
+import chuveiro from "./img/loremshower.webp";
+import bacia from "./img/bacia.webp";
+import torneira from "./img/piatorneira.webp"
 import './styles/productStyle.css'
 import Button from '../Button/Button';
 
 function Product({tituloChuveiro, conteudoChuveiro, tituloBacia, conteudoBacia, tituloTorneira, conteudoTorneira}){
 return(
 <div className="products-container">
-<div className="card mb-3 border-0" id="card-wrap" >
+<div className="card mb-3 border-1 " id="card-wrap" >
   <div className="row g-0">
     <div className="col-md-4">
       <img src={chuveiro} id="img-card" className="img-fluid rounded-start" alt="instalação chuveiros" />
@@ -24,7 +24,7 @@ return(
     
   </div>
 </div>
-<div className="card mb-3 border-0" id="card-wrap">
+<div className="card mb-3 border-1" id="card-wrap">
   <div className="row g-0">
     <div className="col-md-4">
       <img src={bacia} id="img-bacia" className="img-fluid rounded-start" alt="instalação bacia sanitaria" />
@@ -38,10 +38,10 @@ return(
     </div>
   </div>
 </div>
-<div className="card mb-3 border-0" id="card-wrap">
+<div className="card mb-3 border-1" id="card-wrap">
   <div className="row g-0">
     <div className="col-md-4">
-      <img src={torneira} id="img-bacia" className="img-fluid rounded-start" alt="instalação bacia sanitaria" />
+      <img src={torneira} id="img-card" className="img-fluid rounded-start" alt="instalação bacia sanitaria" />
     </div>
     <div className="col-md-8">
       <div className="card-body">

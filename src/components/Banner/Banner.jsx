@@ -10,7 +10,7 @@ function Banner(){
   
     return(
         <div className="banner-container"> 
-        <div className="navbar navbar-expand-lg navbar bg-dark border-bottom border-bottom-dark" id="container-banner"data-bs-theme="dark">
+        <div className="navbar navbar-expand-lg navbar bg-dark  border-bottom-dark" id="container-banner"data-bs-theme="dark">
           <h1 className="titulo">{titulo}</h1>
             <h2 className="subtitulo">{subtitulo}
             <a className="point">.</a>

@@ -4,13 +4,13 @@ import "./FormStyle.css"; // Importe o arquivo CSS para estilizar o formulário
 function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [telefone, setTelefone] = useState('');
+
   const [mensagem, setMensagem] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Aqui você pode realizar ações com os dados do formulário, como enviá-los para um servidor
-    console.log(name, email, telefone, mensagem);
+    console.log(name, email, mensagem);
   };
 
   return (
@@ -38,16 +38,7 @@ function Form() {
           onChange={(e) => setEmail(e.target.value)}
         />
       </div>
-      <div className="form-group">
-        <label htmlFor="telefone" >Telefone</label>
-        <input
-          type="number"
-          id="telefone"
-          value={telefone}
-          placeholder="Telefone"
-          onChange={(e) => setTelefone(e.target.value)}
-        />
-      </div>
+     
       <div className="form-group">
         <label htmlFor="mensagem" >Mensagem</label>
         <textarea

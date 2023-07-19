@@ -1,5 +1,4 @@
 import "./App.css";
-
 import { Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -7,16 +6,28 @@ import Header from "./components/Header/Header";
 import Product from "./components/Products/Product";
 import Banner from "./components/Banner/Banner";
 import NotFound from "./components/NotFound/NotFound";
-import Layout from "./components/Layout/Layout";
+import Sobre from "./components/Sobre/Sobre";
+
 function App() {
   return (
     <>
       <Header />
-      
       <Banner />
 
       <Routes>
-        <Route path="/" element={<main/>}/>
+        <Route
+          path="/sobre"
+          element={
+            <Sobre
+              titulo="Sobre a Beständig"
+              info="Somos uma empresa especializada  e temos como compromisso oferecer soluções de qualidade.
+Nossos serviços abrangem instalações, reparos e manutenção hidráulica e elétrica para residências e empresas. Contamos com uma equipe experiente e qualificada, pronta para atender às necessidades específicas de cada cliente.
+Além disso, garantimos a emissão de nota fiscal para todos os serviços prestados, proporcionando transparência e segurança aos nossos clientes.
+Estamos à disposição para agendar uma visita técnica e fornecer um orçamento personalizado de acordo com as demandas dos nossos clientes. Acreditamos que podemos oferecer soluções eficientes e duradouras para seus projetos.
+Agradecemos a oportunidade e esperamos poder contribuir com os serviços de hidráulica e elétrica necessários. Entre em contato conosco para mais informações ou para agendar uma visita. Estamos ansiosos para atendê-lo! "
+            />
+          }
+        />
         <Route path="/contact" element={<Contact />} />
         <Route
           path="/products"
@@ -37,9 +48,9 @@ function App() {
             />
           }
         />
-        <Route path="*" element={<NotFound /> }/>
+        <Route path="*" element={<NotFound />} />
       </Routes>
-          <Layout />
+
       <Footer
         contato="Contato"
         telefone="+55 48 9999-2093"
@@ -49,7 +60,6 @@ function App() {
         tituloinformacao="Informações"
         infcontent="CNPJ 0000000-000000"
       />
-      
     </>
   );
 }

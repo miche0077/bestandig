@@ -1,0 +1,33 @@
+.sobre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1598px;
+    height: 1080px;
+    background-image: url('./img/show.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+
+  .sobre-content {
+    text-align:justify;
+    margin: 20px;
+    width: 1080px;
+  }
+  
+  .title {
+    font-size: 40px;
+    color: #fffdfd;
+    margin-bottom: 80px;
+   
+  }
+  
+  .sobre {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fffafa;
+ 
+  }
+  

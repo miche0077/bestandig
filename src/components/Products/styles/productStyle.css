@@ -5,7 +5,10 @@
   align-items: flex-start;
   padding: 30px;
   gap: 10px;
-  
+  width: 1070px;
+  height: 450px;
+  margin-left: 50px;
+  transition: transform 0.3s ease
 }
 .card-body {
   border-radius: 5px;
@@ -16,7 +19,9 @@
   gap: 10px;
   
 }
-
+#card-wrap:hover{
+  transform: scale(1.1);
+}
 .card-title {
   width: 400px;
   height: 40px;
@@ -39,4 +44,12 @@
   line-height: 19px;
   text-align: justify;
   color: #333333;
+}
+#img-card{
+  width: 300px;
+  height: 300px;
+}
+#img-bacia{
+  width: 320px;
+  height: 365px;
 }

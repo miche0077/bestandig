@@ -18,7 +18,7 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Sobre</a>
+                  <Link to="/sobre" className="nav-link"> Sobre</Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/products" className="nav-link" >Serviços</Link>

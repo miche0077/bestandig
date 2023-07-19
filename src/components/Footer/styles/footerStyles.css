@@ -4,6 +4,7 @@
   position: relative;
   width: 1598px;
   height: 348px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.700),transparent);
 }
 .contain-footer {
   display: flex;
@@ -13,6 +14,7 @@
   gap: 10px;
   width: 526px;
   height: 240px;
+  
 }
 #logo {
   width: 200px;
